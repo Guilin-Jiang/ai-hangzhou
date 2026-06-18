@@ -3,373 +3,380 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="北师大科技集团人工智能部门杭州教育基地 — 专注人工智能教育，培养未来科技人才">
-    <title>北师大科技集团 · AI杭州教育基地</title>
+    <meta name="description" content="师承未来 — 北师大科技集团人工智能事业部，深耕教育AIGC全链路、自研教育大模型、AI云计算、政企资源对接。">
+    <title>师承未来 · 北师大科技集团AI事业部</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <!-- ==================== 导航栏 ==================== -->
-<nav class="navbar" id="navbar">
+<header class="navbar" id="navbar">
     <div class="container nav-inner">
-        <a href="#" class="nav-logo">
-            <span class="logo-icon">⟐</span>
-            <span>BNU·AI 杭州基地</span>
+        <a href="#home" class="nav-brand">
+            <span class="brand-mark">师承未来</span>
+            <span class="brand-sub">北师大科技集团 · AI事业部</span>
         </a>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="#home" class="active">首页</a></li>
-            <li><a href="#about">关于我们</a></li>
-            <li><a href="#courses">课程体系</a></li>
-            <li><a href="#advantages">核心优势</a></li>
-            <li><a href="#team">专家团队</a></li>
-            <li><a href="#contact">联系我们</a></li>
-        </ul>
-        <div class="nav-toggle" id="navToggle">
+        <nav class="nav-menu" id="navMenu">
+            <a href="#home" class="active">首页</a>
+            <a href="#about">关于我们</a>
+            <a href="#business">核心业务</a>
+            <a href="#team">核心团队</a>
+            <a href="#solutions">解决方案</a>
+            <a href="#cases">案例展示</a>
+            <a href="#news">资讯动态</a>
+            <a href="#contact">联系我们</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="菜单">
             <span></span><span></span><span></span>
-        </div>
+        </button>
     </div>
-</nav>
+</header>
 
+<main>
 <!-- ==================== 首页 Hero ==================== -->
 <section class="hero" id="home">
-    <div class="hero-bg">
-        <div class="hero-particles" id="heroParticles"></div>
-    </div>
-    <div class="container hero-content">
-        <span class="hero-badge">北京师范大学科技集团 · 人工智能部门</span>
-        <h1 class="hero-title">
-            立足杭州，面向未来<br>
-            <span class="hero-highlight">培养 AI 时代核心人才</span>
-        </h1>
-        <p class="hero-desc">
-            依托北师大顶尖科研实力与教育资源，打造长三角地区人工智能教育新高地。<br>
-            为青少年、教师及企业提供体系化 AI 教育解决方案。
-        </p>
-        <div class="hero-buttons">
-            <a href="#courses" class="btn btn-primary">探索课程</a>
-            <a href="#about" class="btn btn-outline">了解更多</a>
+    <div class="hero-grid"></div>
+    <div class="container hero-body">
+        <p class="hero-overline">北京师范大学科技集团 · 人工智能事业部</p>
+        <h1 class="hero-title">北师大科创赋能<span class="dot">·</span><br>AI重构教育未来</h1>
+        <p class="hero-desc">深耕AIGC商业全链路&ensp;|&ensp;自研教育大模型&ensp;|&ensp;AI云计算服务&ensp;|&ensp;政企资源精准对接</p>
+        <div class="hero-actions">
+            <a href="#business" class="btn btn-primary">了解业务</a>
+            <a href="#contact" class="btn btn-ghost">咨询合作</a>
         </div>
-        <div class="hero-stats">
-            <div class="stat-item">
-                <span class="stat-number" data-count="120">0</span><span class="stat-unit">+</span>
-                <span class="stat-label">合作学校</span>
+    </div>
+    <div class="hero-scroll" id="heroScroll">
+        <span>向下探索</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+</section>
+
+<!-- ==================== 品牌速览 ==================== -->
+<section class="brand-snapshot" id="brand">
+    <div class="container">
+        <div class="snapshot-card">
+            <div class="snapshot-text">
+                <span class="eyebrow">品牌速览</span>
+                <h2>师承未来</h2>
+                <p>隶属于北京师范大学科技集团人工智能事业部，专注教育领域AI技术研发与商业化落地。<br>北京、杭州双中心联动运营，兼具高校权威教研实力与市场化落地能力。</p>
+                <div class="snapshot-tags">
+                    <span>高校官方背书</span><span>产学研一体化</span><span>政企双赛道深耕</span><span>全链路落地</span><span>新媒体获客闭环</span>
+                </div>
             </div>
-            <div class="stat-item">
-                <span class="stat-number" data-count="5000">0</span><span class="stat-unit">+</span>
-                <span class="stat-label">培养学员</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number" data-count="30">0</span><span class="stat-unit">+</span>
-                <span class="stat-label">课程模块</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number" data-count="50">0</span><span class="stat-unit">+</span>
-                <span class="stat-label">专家导师</span>
+            <div class="snapshot-stats">
+                <div class="stat"><span class="stat-num">5</span><span class="stat-word">⼈精英核心团队</span></div>
+                <div class="stat"><span class="stat-num">双城</span><span class="stat-word">北京·杭州联动</span></div>
+                <div class="stat"><span class="stat-num">4</span><span class="stat-word">大核心业务线</span></div>
+                <div class="stat"><span class="stat-num">全链</span><span class="stat-word">闭环服务能力</span></div>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ==================== 关于我们 ==================== -->
-<section class="about section-padding" id="about">
+<section class="page-section" id="about">
     <div class="container">
-        <div class="section-header">
-            <span class="section-tag">关于我们</span>
-            <h2 class="section-title">北师大科技集团 AI 杭州教育基地</h2>
-            <p class="section-subtitle">传承百年师大教育基因，融合前沿人工智能技术</p>
+        <div class="section-head">
+            <span class="eyebrow">关于我们</span>
+            <h2 class="section-title">高校背书<span class="text-light"> × </span>技术深耕<span class="text-light"> × </span>商业落地</h2>
         </div>
-        <div class="about-grid">
-            <div class="about-card">
-                <div class="about-icon">🏫</div>
-                <h3>百年名校背书</h3>
-                <p>北京师范大学科技集团直属，共享北师大优质教育资源、科研成果与专家网络，为教学质量提供坚实保障。</p>
+
+        <div class="about-intro">
+            <p>师承未来为北京师范大学科技集团人工智能事业部旗下专注教育AI赛道的核心品牌，北京、杭州双公司同步运营，聚焦教育数字化转型与AI技术商业化落地。</p>
+            <p>公司深度依托北师大人工智能学院、智能技术与教育应用教育部工程研究中心科研实力，以国家级基础教育大模型技术为核心支撑，打通<strong>AI技术研发、场景落地、商业运营、资源对接</strong>全链条。同时深耕钉钉生态数字化服务，为政企单位提供数字化办公、智能化转型配套服务。</p>
+        </div>
+
+        <div class="endorsement-grid">
+            <div class="endorse-card">
+                <div class="endorse-icon">🏛️</div>
+                <h4>高校背书</h4>
+                <p>依托北京师范大学（教育学全国顶尖）科研体系，深耕教育AI产学研融合</p>
             </div>
-            <div class="about-card">
-                <div class="about-icon">🤖</div>
-                <h3>聚焦人工智能</h3>
-                <p>专注于 AI 教育领域，覆盖机器学习、深度学习、计算机视觉、自然语言处理、大模型应用等前沿方向。</p>
+            <div class="endorse-card">
+                <div class="endorse-icon">🧠</div>
+                <h4>技术背书</h4>
+                <p>师承万象基础教育大模型 — 国内首个紧扣新课标的教育大模型，通过国家网信办备案</p>
             </div>
-            <div class="about-card">
-                <div class="about-icon">📍</div>
-                <h3>扎根杭州</h3>
-                <p>落地杭州数字经济核心区，辐射长三角，深度链接阿里巴巴、蚂蚁集团、海康威视等科技企业生态。</p>
+            <div class="endorse-card">
+                <div class="endorse-icon">🤝</div>
+                <h4>平台背书</h4>
+                <p>首批北京人工智能应用场景联合研发平台共建单位，专注教育AI场景落地与标准建设</p>
             </div>
-            <div class="about-card">
-                <div class="about-icon">🎯</div>
-                <h3>产教融合</h3>
-                <p>以产业需求为导向，学以致用，培养兼具理论素养与实践能力的高素质 AI 人才。</p>
+            <div class="endorse-card">
+                <div class="endorse-icon">📋</div>
+                <h4>生态背书</h4>
+                <p>钉钉官方生态合作布道师单位，具备政企数字化落地服务资质与经验</p>
             </div>
+        </div>
+
+        <h3 class="subsection-title">核心优势</h3>
+        <div class="advantage-list">
+            <div class="adv-item"><span class="adv-num">01</span><div><strong>权威教研+硬核技术</strong><p>高校科研团队支撑，深耕新课标教育场景，区别于通用AI服务商</p></div></div>
+            <div class="adv-item"><span class="adv-num">02</span><div><strong>政企双赛道全覆盖</strong><p>同时深耕To G政务教育项目、To B企业赋能服务，业务场景全面</p></div></div>
+            <div class="adv-item"><span class="adv-num">03</span><div><strong>全链路闭环服务</strong><p>从技术研发、方案定制、获客运营到资源对接，一站式闭环</p></div></div>
+            <div class="adv-item"><span class="adv-num">04</span><div><strong>双区域联动运营</strong><p>北京总部统筹技术与教研，杭州分部深耕华东市场，全国辐射</p></div></div>
+            <div class="adv-item"><span class="adv-num">05</span><div><strong>轻量化高效服务</strong><p>精英核心团队，分工精准、响应快速，定制化服务无冗余流程</p></div></div>
         </div>
     </div>
 </section>
 
-<!-- ==================== 课程体系 ==================== -->
-<section class="courses section-padding bg-light" id="courses">
+<!-- ==================== 核心业务 ==================== -->
+<section class="page-section bg-soft" id="business">
     <div class="container">
-        <div class="section-header">
-            <span class="section-tag">课程体系</span>
-            <h2 class="section-title">多层次 AI 教育课程</h2>
-            <p class="section-subtitle">从启蒙到进阶，覆盖全年龄段与多场景需求</p>
+        <div class="section-head">
+            <span class="eyebrow">核心业务</span>
+            <h2 class="section-title">四大主营业务<span class="text-light"> + </span>特色增值服务</h2>
+            <p class="section-desc">全覆盖客户需求，从技术到商业、从获客到资源</p>
         </div>
-        <div class="courses-grid">
-            <div class="course-card featured">
-                <div class="course-label">热门推荐</div>
-                <div class="course-header">
-                    <h3>🤖 AI 启蒙课程</h3>
-                    <p class="course-audience">适合 6-12 岁青少年</p>
-                </div>
-                <ul class="course-features">
-                    <li>图形化编程与 AI 思维启蒙</li>
-                    <li>趣味项目：智能语音助手、图像识别小游戏</li>
-                    <li>培养计算思维与创新能力</li>
-                    <li>小班教学，每班不超过 15 人</li>
-                </ul>
-                <a href="#contact" class="course-link">咨询详情 →</a>
+
+        <div class="biz-grid">
+            <div class="biz-card">
+                <span class="biz-num">01</span>
+                <h3>AIGC商业全链路落地服务</h3>
+                <p>聚焦教育行业AIGC商业化落地，提供从AI内容生成、场景定制、产品搭建、运营落地、商业变现的全链路解决方案。涵盖AI课件生成、智能题库、AI教学答疑、教育内容AIGC量产、商业AI产品定制、AI项目落地孵化等。</p>
+                <ul class="biz-tags"><li>AI课件生成</li><li>智能题库</li><li>AI教学答疑</li><li>商业变现</li></ul>
             </div>
-            <div class="course-card">
-                <div class="course-header">
-                    <h3>🧠 AI 进阶课程</h3>
-                    <p class="course-audience">适合 12-18 岁中学生</p>
-                </div>
-                <ul class="course-features">
-                    <li>Python 编程与机器学习基础</li>
-                    <li>实战项目：图像分类、情感分析、智能推荐</li>
-                    <li>对接全国青少年 AI 竞赛</li>
-                    <li>一对一项目导师指导</li>
-                </ul>
-                <a href="#contact" class="course-link">咨询详情 →</a>
+            <div class="biz-card">
+                <span class="biz-num">02</span>
+                <h3>AI大模型技术应用与部署</h3>
+                <p>基于北师大自研<strong>师承万象基础教育大模型</strong>，提供专属教育大模型适配、私有化部署、场景二次开发、模型微调服务。适配公办教育、民办教育、政企教育项目多场景。</p>
+                <ul class="biz-tags"><li>私有化部署</li><li>模型微调</li><li>新课标适配</li><li>智能出题</li></ul>
             </div>
-            <div class="course-card">
-                <div class="course-header">
-                    <h3>👨‍🏫 教师培训课程</h3>
-                    <p class="course-audience">适合中小学教师</p>
-                </div>
-                <ul class="course-features">
-                    <li>AI 教育理念与教学方法</li>
-                    <li>北师大颁发结业证书</li>
-                    <li>校本课程设计指导</li>
-                    <li>在线 + 线下混合式培训</li>
-                </ul>
-                <a href="#contact" class="course-link">咨询详情 →</a>
+            <div class="biz-card">
+                <span class="biz-num">03</span>
+                <h3>AI云计算技术服务</h3>
+                <p>提供教育场景专属AI云计算部署、算力支持、云端系统搭建、智能平台运维、数字化系统升级服务。针对政企教育项目、企业AI产品搭建，提供稳定安全定制化的云端算力支撑。</p>
+                <ul class="biz-tags"><li>云端部署</li><li>算力支持</li><li>系统运维</li><li>数字化升级</li></ul>
             </div>
-            <div class="course-card">
-                <div class="course-header">
-                    <h3>💼 企业定制课程</h3>
-                    <p class="course-audience">适合企业及职场人士</p>
-                </div>
-                <ul class="course-features">
-                    <li>大模型应用与 AIGC 实战</li>
-                    <li>数据分析与 AI 驱动决策</li>
-                    <li>按需定制，上门培训</li>
-                    <li>提供企业 AI 转型咨询</li>
-                </ul>
-                <a href="#contact" class="course-link">咨询详情 →</a>
+            <div class="biz-card">
+                <span class="biz-num">04</span>
+                <h3>政企高端资源对接（OPC）</h3>
+                <p>依托北师大官方资源、政企合作渠道，提供一对一OPC高端资源对接服务。涵盖教育政企项目资源、行业上下游资源、高校教研资源、技术合作资源、行业人脉资源对接。</p>
+                <ul class="biz-tags"><li>政企项目</li><li>行业人脉</li><li>技术合作</li><li>教研资源</li></ul>
             </div>
-            <div class="course-card">
-                <div class="course-header">
-                    <h3>🏕️ AI 研学营</h3>
-                    <p class="course-audience">寒暑假特色项目</p>
-                </div>
-                <ul class="course-features">
-                    <li>走进杭州科技企业实地研学</li>
-                    <li>5 天沉浸式 AI 项目开发</li>
-                    <li>团队协作完成毕业作品</li>
-                    <li>优秀学员获北师大推荐信</li>
-                </ul>
-                <a href="#contact" class="course-link">咨询详情 →</a>
+            <div class="biz-card biz-card--accent">
+                <span class="biz-badge">特色增值</span>
+                <h3>钉钉生态布道服务</h3>
+                <p>作为专业钉钉布道师团队，为政企单位、学校、教育企业提供钉钉数字化办公搭建、智能场景配置、组织数字化升级、钉钉生态应用开发、员工数字化培训等服务。</p>
+                <ul class="biz-tags"><li>数字化办公</li><li>智能配置</li><li>应用开发</li><li>员工培训</li></ul>
             </div>
-            <div class="course-card">
-                <div class="course-header">
-                    <h3>🎓 竞赛集训课程</h3>
-                    <p class="course-audience">面向竞赛学生</p>
-                </div>
-                <ul class="course-features">
-                    <li>全国青少年人工智能创新挑战赛</li>
-                    <li>信息学奥林匹克竞赛 AI 专项</li>
-                    <li>赛前冲刺与模拟训练</li>
-                    <li>历年获奖选手经验分享</li>
-                </ul>
-                <a href="#contact" class="course-link">咨询详情 →</a>
-            </div>
+        </div>
+
+        <div class="biz-cta">
+            <p>四大主营业务全覆盖，特色增值服务差异化竞争</p>
+            <a href="#contact" class="btn btn-primary">咨询业务详情 →</a>
         </div>
     </div>
 </section>
 
-<!-- ==================== 核心优势 ==================== -->
-<section class="advantages section-padding" id="advantages">
+<!-- ==================== 核心团队 ==================== -->
+<section class="page-section" id="team">
     <div class="container">
-        <div class="section-header">
-            <span class="section-tag">核心优势</span>
-            <h2 class="section-title">为什么选择我们</h2>
-            <p class="section-subtitle">六大优势，助力每一位学员成长</p>
+        <div class="section-head">
+            <span class="eyebrow">核心团队</span>
+            <h2 class="section-title">5人精英团队<span class="text-light"> · </span>全闭环运营</h2>
+            <p class="section-desc">各司其职，兼具管理统筹、技术落地、政企对接、流量运营、课程服务全能力</p>
         </div>
-        <div class="advantages-grid">
-            <div class="advantage-item">
-                <div class="advantage-number">01</div>
-                <h4>北师大官方品牌</h4>
-                <p>北京师范大学科技集团直属运营，全国重点大学信誉背书，教育资源权威可靠。</p>
-            </div>
-            <div class="advantage-item">
-                <div class="advantage-number">02</div>
-                <h4>顶尖专家团队</h4>
-                <p>汇聚北师大教授、AI 企业技术专家、一线名师，打造"三位一体"教学团队。</p>
-            </div>
-            <div class="advantage-item">
-                <div class="advantage-number">03</div>
-                <h4>系统课程体系</h4>
-                <p>自主研发课程大纲，对标教育部 AI 课程标准，从启蒙到竞賽逐级递进。</p>
-            </div>
-            <div class="advantage-item">
-                <div class="advantage-number">04</div>
-                <h4>实战项目驱动</h4>
-                <p>每门课配备真实场景项目，学员在动手实践中真正掌握 AI 技术，作品可直接用于升学背景提升。</p>
-            </div>
-            <div class="advantage-item">
-                <div class="advantage-number">05</div>
-                <h4>产业资源链接</h4>
-                <p>与杭州本地科技龙头企业深度合作，优秀学员可获得实习推荐、企业参访等机会。</p>
-            </div>
-            <div class="advantage-item">
-                <div class="advantage-number">06</div>
-                <h4>持续成长服务</h4>
-                <p>课程结束后持续跟踪学习效果，提供进阶学习路径规划，建立学员长期成长档案。</p>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- ==================== 专家团队 ==================== -->
-<section class="team section-padding bg-light" id="team">
-    <div class="container">
-        <div class="section-header">
-            <span class="section-tag">专家团队</span>
-            <h2 class="section-title">专业引领，匠心育人</h2>
-            <p class="section-subtitle">由北师大教授、行业专家与一线名师组成的教学团队</p>
-        </div>
         <div class="team-grid">
-            <div class="team-card">
-                <div class="team-avatar">👨‍🏫</div>
-                <h4>张教授</h4>
-                <span class="team-role">学术顾问</span>
-                <p>北京师范大学人工智能学院教授，博士生导师，研究方向为机器学习与教育数据挖掘。</p>
+            <div class="member-card">
+                <div class="member-avatar">刘阳</div>
+                <span class="member-role">总经理</span>
+                <p>公司全盘统筹、战略规划、整体运营管理、重大项目决策、顶层资源对接、团队管理。深耕AI教育行业多年，主导技术研发、市场拓展、政企合作全板块战略落地。</p>
+                <div class="member-tags"><span>战略管理</span><span>资源对接</span><span>商业变现</span></div>
             </div>
-            <div class="team-card">
-                <div class="team-avatar">👩‍💼</div>
-                <h4>李博士</h4>
-                <span class="team-role">教研总监</span>
-                <p>浙江大学计算机博士，曾任阿里巴巴达摩院算法专家，专注AI教育产品研发。</p>
+            <div class="member-card">
+                <div class="member-avatar">廖颖</div>
+                <span class="member-role">杭州公司总负责人</span>
+                <p>师承未来杭州公司全盘运营、华东区域市场拓展、本地政企客户对接、区域项目落地、华东市场渠道搭建与维护。深耕华东教育数字化市场。</p>
+                <div class="member-tags"><span>区域运营</span><span>政企对接</span><span>市场拓展</span></div>
             </div>
-            <div class="team-card">
-                <div class="team-avatar">👨‍💻</div>
-                <h4>王老师</h4>
-                <span class="team-role">金牌讲师</span>
-                <p>前华为 AI 工程师，全国青少年 AI 大赛金牌教练，指导学生多次获得国家级奖项。</p>
+            <div class="member-card">
+                <div class="member-avatar">郭俊</div>
+                <span class="member-role">政企项目资深导师</span>
+                <p>全权负责To B企业赋能、To G政府教育项目对接、政企方案定制、项目落地执行、政企客户深度服务、行业项目孵化。服务众多学校、教育部门、教育企业。</p>
+                <div class="member-tags"><span>To B/To G</span><span>方案设计</span><span>项目落地</span></div>
             </div>
-            <div class="team-card">
-                <div class="team-avatar">👩‍🔬</div>
-                <h4>陈老师</h4>
-                <span class="team-role">课程设计师</span>
-                <p>北师大课程与教学论硕士，5 年 AI 教育课程开发经验，擅长跨学科融合教学。</p>
+            <div class="member-card">
+                <div class="member-avatar">江桂林</div>
+                <span class="member-role">获客运营&课程顾问导师</span>
+                <p>全域客户获客体系搭建、客户渠道拓展、精准客户筛选对接、AI教育课程研发、课程咨询服务、客户售后赋能、学员运营服务。擅长私域公域全域获客体系搭建。</p>
+                <div class="member-tags"><span>获客体系</span><span>课程研发</span><span>客户赋能</span></div>
+            </div>
+            <div class="member-card">
+                <div class="member-avatar">董洋虎</div>
+                <span class="member-role">新媒体流量导师</span>
+                <p>短视频内容策划、直播运营、新媒体账号矩阵搭建、公域流量引流、品牌新媒体宣传、短视频&直播商业化落地。专注教育AI领域新媒体流量运营。</p>
+                <div class="member-tags"><span>短视频</span><span>直播运营</span><span>流量转化</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== 解决方案 ==================== -->
+<section class="page-section bg-soft" id="solutions">
+    <div class="container">
+        <div class="section-head">
+            <span class="eyebrow">解决方案</span>
+            <h2 class="section-title">场景化落地<span class="text-light"> · </span>适配所有客群</h2>
+        </div>
+
+        <div class="solution-grid">
+            <div class="solution-card">
+                <div class="solution-label">To G</div>
+                <h3>政府端解决方案</h3>
+                <p>面向各地教育局、公办学校、教育事业单位，提供智慧校园搭建、AI课堂落地、新课标AI教学改造、教育数字化转型、师资AI培训、教育大模型本地化部署、区域教育智能化升级整体方案。依托北师大权威教研成果，适配公办教育标准与政策要求。</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-label">To B</div>
+                <h3>企业端解决方案</h3>
+                <p>面向教育培训机构、教育科技公司、创业团队，提供AIGC商业落地、AI产品定制、短视频直播获客、课程体系搭建、钉钉数字化办公、算力与大模型技术赋能、行业资源对接一站式服务。助力企业降本增效、实现AI商业化转型。</p>
+            </div>
+            <div class="solution-card">
+                <div class="solution-label">个人</div>
+                <h3>个人/创业者解决方案</h3>
+                <p>为AI教育创业者、教育从业者提供项目孵化、技术赋能、获客体系、课程培训、资源对接、流量扶持全链路赋能。低门槛入局AI教育赛道，依托师承未来品牌与技术背书快速落地变现。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== 案例展示 ==================== -->
+<section class="page-section" id="cases">
+    <div class="container">
+        <div class="section-head">
+            <span class="eyebrow">案例展示</span>
+            <h2 class="section-title">落地成果<span class="text-light"> · </span>实力见证</h2>
+        </div>
+
+        <div class="case-grid">
+            <div class="case-card">
+                <div class="case-placeholder"></div>
+                <span class="case-cat">政企智慧教育</span>
+                <h4>智慧教育项目案例</h4>
+                <p>区域教育局AI课堂升级项目，覆盖XX所学校</p>
+            </div>
+            <div class="case-card">
+                <div class="case-placeholder"></div>
+                <span class="case-cat">AIGC商业落地</span>
+                <h4>商业变现案例</h4>
+                <p>教育机构AIGC全链路落地，实现降本增效</p>
+            </div>
+            <div class="case-card">
+                <div class="case-placeholder"></div>
+                <span class="case-cat">新媒体流量</span>
+                <h4>流量变现案例</h4>
+                <p>短视频矩阵搭建，单月精准获客XXX+</p>
+            </div>
+            <div class="case-card">
+                <div class="case-placeholder"></div>
+                <span class="case-cat">钉钉数字化</span>
+                <h4>数字化改造案例</h4>
+                <p>政企单位钉钉生态搭建，实现智能化管理</p>
+            </div>
+        </div>
+        <p class="section-note">更多案例持续更新中，欢迎咨询了解详情</p>
+    </div>
+</section>
+
+<!-- ==================== 资讯动态 ==================== -->
+<section class="page-section bg-soft" id="news">
+    <div class="container">
+        <div class="section-head">
+            <span class="eyebrow">资讯动态</span>
+            <h2 class="section-title">行业前沿<span class="text-light"> · </span>持续更新</h2>
+        </div>
+
+        <div class="news-grid">
+            <div class="news-card">
+                <span class="news-cat">公司动态</span>
+                <p>企业合作、项目落地、团队动态、区域业务拓展资讯</p>
+                <a href="#" class="text-link">查看详情 →</a>
+            </div>
+            <div class="news-card">
+                <span class="news-cat">行业资讯</span>
+                <p>AI教育政策、AIGC行业趋势、教育数字化新规、大模型技术动态</p>
+                <a href="#" class="text-link">查看详情 →</a>
+            </div>
+            <div class="news-card">
+                <span class="news-cat">教研干货</span>
+                <p>北师大AI教育科研成果、新课标AI教学应用、行业实操干货</p>
+                <a href="#" class="text-link">查看详情 →</a>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ==================== 联系我们 ==================== -->
-<section class="contact section-padding" id="contact">
+<section class="page-section" id="contact">
     <div class="container">
-        <div class="section-header">
-            <span class="section-tag">联系我们</span>
-            <h2 class="section-title">欢迎咨询与合作</h2>
-            <p class="section-subtitle">无论您是家长、学校还是企业，我们都期待与您沟通</p>
+        <div class="section-head">
+            <span class="eyebrow">联系我们</span>
+            <h2 class="section-title">欢迎咨询<span class="text-light"> · </span>合作共赢</h2>
+            <p class="section-desc">无论您是政府、学校、企业还是创业者，我们都期待与您沟通</p>
         </div>
+
         <div class="contact-grid">
             <div class="contact-info">
-                <div class="contact-card">
-                    <div class="contact-icon">📍</div>
-                    <div>
-                        <h4>地址</h4>
-                        <p>浙江省杭州市余杭区文一西路<br>（北师大杭州教育基地）</p>
-                    </div>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">📞</div>
-                    <div>
-                        <h4>电话</h4>
-                        <p>0571-XXXXXXXX（工作日 9:00-18:00）</p>
-                    </div>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">📧</div>
-                    <div>
-                        <h4>邮箱</h4>
-                        <p>ai-hangzhou@bnu.edu.cn</p>
-                    </div>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">💬</div>
-                    <div>
-                        <h4>微信</h4>
-                        <p>搜索"北师大 AI 杭州基地"关注公众号</p>
-                    </div>
-                </div>
+                <div class="contact-row"><span>📍</span><div><strong>北京总部</strong><p>北京市海淀区新街口外大街19号 北京师范大学</p></div></div>
+                <div class="contact-row"><span>📍</span><div><strong>杭州分公司</strong><p>浙江省杭州市余杭区文一西路（北师大杭州教育基地）</p></div></div>
+                <div class="contact-row"><span>📞</span><div><strong>咨询电话</strong><p>待补充（工作日 9:00-18:00）</p></div></div>
+                <div class="contact-row"><span>📧</span><div><strong>合作邮箱</strong><p>待补充@bnu.edu.cn</p></div></div>
+                <div class="contact-row"><span>💬</span><div><strong>微信咨询</strong><p>搜索关注「师承未来」公众号</p></div></div>
             </div>
+
             <form class="contact-form" id="contactForm">
-                <div class="form-row">
-                    <input type="text" placeholder="您的姓名" required>
+                <h4>在线留言</h4>
+                <input type="text" placeholder="您的姓名 / 单位名称" required>
+                <div class="form-split">
                     <input type="tel" placeholder="手机号码" required>
+                    <input type="email" placeholder="电子邮箱">
                 </div>
-                <input type="email" placeholder="电子邮箱">
                 <select required>
                     <option value="">请选择咨询类型</option>
-                    <option>青少年 AI 课程</option>
-                    <option>教师培训</option>
-                    <option>企业定制</option>
-                    <option>AI 研学营</option>
-                    <option>竞赛集训</option>
+                    <option>AIGC商业全链路落地</option>
+                    <option>AI大模型技术应用</option>
+                    <option>AI云计算服务</option>
+                    <option>政企资源对接（OPC）</option>
+                    <option>钉钉生态布道服务</option>
                     <option>合作洽谈</option>
                     <option>其他</option>
                 </select>
-                <textarea rows="4" placeholder="请简要描述您的需求..."></textarea>
-                <button type="submit" class="btn btn-primary btn-full">提交咨询</button>
+                <textarea rows="5" placeholder="请简要描述您的需求，我们将尽快与您联系..."></textarea>
+                <button type="submit" class="btn btn-primary btn-full">提交留言</button>
             </form>
         </div>
     </div>
 </section>
+</main>
 
 <!-- ==================== 页脚 ==================== -->
 <footer class="footer">
     <div class="container">
-        <div class="footer-grid">
+        <div class="footer-top">
             <div class="footer-brand">
-                <h3>⟐ BNU·AI 杭州基地</h3>
-                <p>北京师范大学科技集团人工智能部门<br>杭州教育基地</p>
+                <h3>师承未来</h3>
+                <p>北京师范大学科技集团人工智能事业部<br>北京 · 杭州 双中心运营</p>
             </div>
-            <div class="footer-links">
-                <h4>快速链接</h4>
-                <a href="#about">关于我们</a>
-                <a href="#courses">课程体系</a>
-                <a href="#advantages">核心优势</a>
-                <a href="#team">专家团队</a>
-                <a href="#contact">联系我们</a>
-            </div>
-            <div class="footer-links">
-                <h4>课程分类</h4>
-                <a href="#courses">AI 启蒙课程</a>
-                <a href="#courses">AI 进阶课程</a>
-                <a href="#courses">教师培训</a>
-                <a href="#courses">企业定制</a>
-                <a href="#courses">AI 研学营</a>
-            </div>
-            <div class="footer-qr">
-                <h4>关注我们</h4>
-                <div class="qr-placeholder">[ 公众号二维码 ]</div>
-                <p>扫码关注公众号<br>获取最新课程资讯</p>
+            <div class="footer-nav">
+                <div>
+                    <h4>网站导航</h4>
+                    <a href="#about">关于我们</a><a href="#business">核心业务</a><a href="#team">核心团队</a><a href="#solutions">解决方案</a>
+                </div>
+                <div>
+                    <h4>更多</h4>
+                    <a href="#cases">案例展示</a><a href="#news">资讯动态</a><a href="#contact">联系我们</a>
+                </div>
+                <div>
+                    <h4>资质</h4>
+                    <p class="footer-small">依托北师大智能技术与教育应用教育部工程研究中心技术支持</p>
+                    <p class="footer-small">师承万象教育大模型技术合作单位</p>
+                </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2024 北京师范大学科技集团 · AI 杭州教育基地 版权所有</p>
-            <p>京ICP备XXXXXXXX号-X</p>
+            <span>© 师承未来 · 北京师范大学科技集团人工智能事业部 版权所有</span>
+            <span>京ICP备XXXXXXXX号-X | 京公网安备XXXXXXXXXX号</span>
         </div>
     </div>
 </footer>
